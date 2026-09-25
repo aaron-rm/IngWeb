@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 3 | Ingenieria Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Actividad 1 -->
+    <section>
+        
+        <h1>Actividad 1</h1>
+        <h2>Registro de Calificaciones</h2>
+        <form action="Act1.php" method="POST">
+            <label for="nombre">Nombre del estudiante:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="nota1">Calificación 1:</label><br>
+            <input type="number" id="nota1" name="nota1" step="0.01" min="0" max="100" required><br><br>
+
+            <label for="nota2">Calificación 2:</label><br>
+            <input type="number" id="nota2" name="nota2" step="0.01" min="0" max="100" required><br><br>
+
+            <label for="nota3">Calificación 3:</label><br>
+            <input type="number" id="nota3" name="nota3" step="0.01" min="0" max="100" required><br><br>
+
+            <label for="nota4">Calificación 4:</label><br>
+            <input type="number" id="nota4" name="nota4" step="0.01" min="0" max="100" required><br><br>
+
+            <label for="nota5">Calificación 5:</label><br>
+            <input type="number" id="nota5" name="nota5" step="0.01" min="0" max="100" required><br><br>
+
+            <button type="submit">Calcular Promedio</button>
+        </form>
+    </section>
+
+    <!-- Actividad 2 -->
+    <section>
+        <h1>Actividad 2</h1>
+        <h2>Calculo de Rectangulo</h2>
+        <form action="Act2.php" method="POST">
+            <label for="base">Base del rectángulo:</label><br>
+            <input type="number" id="base" name="base" step="0.01" min="0" required><br><br>
+
+            <label for="altura">Altura del rectángulo:</label><br>
+            <input type="number" id="altura" name="altura" step="0.01" min="0" required><br><br>
+
+            <button type="submit">Calcular Área y Perímetro</button>
+        </form>
+    </section>
+
+    <!-- Actividad 3 -->
+    <section>
+        <h1>Actividad 3</h1>
+        <h2>Operacion con dos numeros</h2>
+        <form action="Act3.php" method="POST">
+            <label for="numero1">Número 1:</label><br>
+            <input type="number" id="numero1" name="numero1" step="0.01" required><br><br>
+
+            <label for="numero2">Número 2:</label><br>
+            <input type="number" id="numero2" name="numero2" step="0.01" required><br><br>
+
+            <button type="submit">Calcular</button>
+        </form> 
+    </section>
+
+    <!-- Actividad 4 -->
+    <section>
+        <h1>Actividad 4</h1>
+        <h2>Calculo de vuelto</h2>
+        <form action="Act4.php" method="POST">
+            <label for="precio">Precio del producto:</label><br>
+            <input type="number" id="precio" name="precio" step="0.01" min="0" required><br><br>
+
+            <label for="pago">Monto pagado:</label><br>
+            <input type="number" id="pago" name="pago" step="0.01" min="0" required><br><br>
+
+            <button type="submit">Calcular Vuelto</button>
+        </form>
+    </section>
+
+    <!-- Actividad 5 -->
+    <section>
+        <h1>Actividad 5</h1>
+        <h2>Comparacion de dos numeros</h2>
+        <form action="Act5.php" method="POST">
+            <label for="num1">Número 1:</label><br>
+            <input type="number" id="num1" name="num1" step="0.01" required><br><br>
+
+            <label for="num2">Número 2:</label><br>
+            <input type="number" id="num2" name="num2" step="0.01" required><br><br>
+
+            <button type="submit">Comparar</button>
+        </form>
+    </section>
+
+    <!-- Actividad 6 -->
+    <section>
+        <h1>Actividad 6</h1>
+        <h2>Identificacion de numero</h2>
+        <form action="Act6.php" method="POST">
+            <label for="numero">Ingrese un número:</label><br>
+            <input type="number" id="numero" name="numero" step="0.01" required><br><br>
+
+            <button type="submit">Identificar</button>
+        </form> 
+    </section>
+
+    <!-- Actividad 7 -->
+    <section>
+        <h1>Actividad 7</h1>
+        <h2>Generador de Potencias de Numero Random</h2>
+        <form action="Act7.php" method="POST">
+            <label for="num_elegido">Número Elegido</label><br>
+            <input type="number" id="num_elegido" name="num_elegido" step="1" min="-1" max="9" required placeholder="-1 para random (1-9)"><br><br>
+
+            <label for="exp_elegido">Exponente Elegido</label><br>
+            <input type="number" id="exp_elegido" name="exp_elegido" step="1" min="-1" max="9" required placeholder="-1 para random (1-9)"><br><br>
+
+
+            <button type="submit">Generar Potencias</button>
+        </form>
+    </section>
+
+    <!-- Actividad 8 -->
+    <section>
+        <h1>Actividad 8</h1>
+        <h2>Tabla de Multiplicar</h2>
+        <form action="Act8.php" method="POST">
+            <label for="numero">Número para la tabla de multiplicar:</label><br>
+            <input type="number" id="numero" name="numero" step="1" required><br><br>
+
+            <button type="submit">Generar Tabla</button>
+        </form>
+    </section>
+
+</body>
+</html>
